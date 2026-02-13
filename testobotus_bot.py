@@ -130,7 +130,7 @@ def callback_message(callback):
             global str_to_bot
             user_inv.tel = message.text.strip()
             str_to_bot = "Имя: " + user_inv.name + "\nВозраст: " + user_inv.age + "\nГруппа: " + user_inv.num_gr + "\nРегион регистрации: " + user_inv.reg_adr + "\nПервая попытка: " + user_inv.ft + "\nЗаболевания: " + str(user_inv.desease_list) + "\nНомер телефона: " + str(user_inv.tel)
-            bot.send_message(chat_id=8147334737, text=str_to_bot)
+            bot.send_message(chat_id=6949629035, text=str_to_bot)
             bot.send_message(message.chat.id, "Отлично! Ожидайте звонка специалиста.")
             active_users.discard(message.chat.id)
             bot.send_message(message.chat.id, "Диалог завершён.  Начните новый с /start.")
@@ -162,7 +162,7 @@ def callback_message(callback):
             global str_to_bot
             user_voen.tel = message.text.strip()
             str_to_bot = "Имя: " + user_voen.name + "\nКатегория: " + user_voen.status +"\nВозраст: " + user_voen.age + "\nРегион регистрации: " + user_voen.reg_adr + "\nНомер телефона: " + user_voen.tel
-            bot.send_message(chat_id=8147334737, text=str_to_bot)
+            bot.send_message(chat_id=6949629035, text=str_to_bot)
             bot.send_message(message.chat.id, "Отлично! Ожидайте звонка специалиста.")
             active_users.discard(message.chat.id)
             bot.send_message(message.chat.id, "Диалог завершён.  Начните новый с /start.")
@@ -205,7 +205,7 @@ def callback_message(callback):
             global str_to_bot
             user_dip.tel = message.text.strip()
             str_to_bot = "Имя: " + user_dip.name + "\nКатегория: " + user_dip.status + "\nВозраст: " + user_dip.age + "\nРегион регистрации: " + user_dip.reg_adr + "\nНомер телефона: " + user_dip.tel
-            bot.send_message(chat_id=8147334737, text=str_to_bot)
+            bot.send_message(chat_id=6949629035, text=str_to_bot)
             bot.send_message(message.chat.id, "Отлично! Ожидайте звонка специалиста.")
             active_users.discard(message.chat.id)
             bot.send_message(message.chat.id, "Диалог завершён.  Начните новый с /start.")
@@ -248,7 +248,7 @@ def callback_message(callback):
             global str_to_bot
             user_pas.tel = message.text.strip()
             str_to_bot = "Имя: " + user_pas.name + "\nКатегория: " + user_pas.status + "\nВозраст: " + user_pas.age + "\nРегион регистрации: " + user_pas.reg_adr + "\nНомер телефона: " + user_pas.tel
-            bot.send_message(chat_id=8147334737, text=str_to_bot)
+            bot.send_message(chat_id=6949629035, text=str_to_bot)
             bot.send_message(message.chat.id, "Отлично! Ожидайте звонка специалиста.")
             active_users.discard(message.chat.id)
             bot.send_message(message.chat.id, "Диалог завершён.  Начните новый с /start.")
@@ -282,7 +282,7 @@ def callback_message(callback):
             global str_to_bot
             user_other.tel = message.text.strip()
             str_to_bot = "Имя: " + user_other.name + "\nКатегория: " + user_other.status + "\nВозраст: " + user_other.age + "\nРегион регистрации: " + user_other.reg_adr + "\nНомер телефона: " + user_other.tel
-            bot.send_message(chat_id=8147334737, text=str_to_bot)
+            bot.send_message(chat_id=6949629035, text=str_to_bot)
             bot.send_message(message.chat.id, "Отлично! Ожидайте звонка специалиста.")
             active_users.discard(message.chat.id)
             bot.send_message(message.chat.id, "Диалог завершён.  Начните новый с /start.")
